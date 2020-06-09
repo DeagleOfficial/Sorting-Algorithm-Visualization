@@ -7,7 +7,6 @@ void setup() {
   j = 0;
   background(0);
   generateLines(); //generates lines of varying lengths randomly
-  //arr = sort(arr);
   show();
 }
 
