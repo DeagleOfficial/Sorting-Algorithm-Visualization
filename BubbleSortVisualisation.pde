@@ -6,7 +6,7 @@ void setup() {
   i = 0;
   j = 0;
   background(0);
-  generateLines();
+  generateLines(); //generates lines of varying lengths randomly
   //arr = sort(arr);
   show();
 }
@@ -21,7 +21,7 @@ void draw() {
      }
   }
   background(0);
-  show();
+  show(); // updating the lines after one cycle of j
   if (j==(arr.length-i-1)) {
     j = 0;
     i++;
